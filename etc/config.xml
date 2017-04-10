@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<config
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='urn:magento:module:Magento_Store:etc/config.xsd'
+>
+    <default>
+		<df_payment>
+			<mpay24>
+				<countries>AT,DE</countries>
+				<country_restriction>whitelist</country_restriction>
+				<currency>EUR</currency>
+				<description>{store.domain} // {customer.name} // {order.id}</description>
+				<requireBillingAddress>1</requireBillingAddress>
+				<payment_action>authorize_capture</payment_action>
+				<title>mPAY24</title>
+				<title_backend>mPAY24</title_backend>
+			</mpay24>
+		</df_payment>
+        <payment>
+            <dfe_mpay24>
+				<model>Dfe\MPay24\Method</model>
+            </dfe_mpay24>
+        </payment>
+    </default>
+</config>
