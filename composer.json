@@ -1,6 +1,6 @@
 {
 	"name": "mage2pro/mpay24"
-	,"version": "0.0.2"
+	,"version": "0.0.3"
 	,"description": "The «mPAY24» payment extension for Magento 2."
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro/c/extensions/mpay24"
