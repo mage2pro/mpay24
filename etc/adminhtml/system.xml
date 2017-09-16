@@ -166,7 +166,7 @@ because the value can contain variables, so do not know the real length here. --
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
 				>
-					<label>Limit Payment Options Availability?</label>
+					<label>Limit the payment options availability?</label>
 					<backend_model>Df\Config\Backend\Checkbox</backend_model>
 					<comment><![CDATA[If checked, only the specified options will be shown to the customers.]]></comment>
 					<depends><field id='enable'>1</field></depends>
