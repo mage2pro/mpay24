@@ -143,7 +143,7 @@ because the value can contain variables, so do not know the real length here. --
 					type='select'
 				>
 					<label>Where to ask for a payment option?</label>
-					<source_model>Df\PaypalClone\Source\OptionsLocation</source_model>
+					<source_model>Df\Payment\Source\Options\Location</source_model>
 					<comment><![CDATA[]]></comment>
 					<depends><field id='enable'>1</field></depends>
 				</field>
