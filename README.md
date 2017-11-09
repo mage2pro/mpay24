@@ -1,4 +1,4 @@
-The extension integrates your Magento 2 based webstore with the **[mPAY24](https://www.mpay24.com)** payment service (Austria, Germany).
+This extension integrates a Magento 2 based webstore with the **[mPAY24](https://www.mpay24.com)** payment service (Austria, Germany).
 
 ## How to buy
 The extension is not released yet, so there is no way to buy it just now.  
